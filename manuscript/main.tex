@@ -57,11 +57,11 @@
 One of the most useful models in population genetics is that of a selective sweep and the consequent hitch-hiking of linked neutral alleles.
 While variations on this model typically assume constant population size, many instances of strong selection and rapid adaptation in nature may co-occur with complex demography.
 Here we extend the hitch-hiking model to evolutionary rescue, where adaptation and demography not only co-occur but are intimately entwined. 
-Our results show how this feedback between demography and evolution determines the genetic signatures of evolutionary rescue, and how these differ from the signatures of sweeps in populations of constant size.
+Our results show how this feedback between demography and evolution determines -- and restricts -- the genetic signatures of evolutionary rescue, and how these differ from the signatures of sweeps in populations of constant size.
 In particular, we find rescue to harden sweeps from standing variance or new mutation (but not from migration), reduce nucleotide diversity both at the selected site and genome-wide, and increase the range of observed Tajima's $D$ values.
 For a given rate of population decline, the feedback between demography and evolution makes all of these differences more dramatic under weaker selection, where bottlenecks are prolonged. 
-It is likely difficult to infer the co-incident timing of the sweep and bottleneck from these simple signatures, nevermind a feedback between them. 
-However, temporal samples spanning contemporary rescue events may offer one way forward.
+Nevertheless, it is likely difficult to infer the co-incident timing of the sweep and bottleneck from these simple signatures, never-mind a feedback between them. 
+Temporal samples spanning contemporary rescue events may offer one way forward.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Introduction}
@@ -878,7 +878,7 @@ We use a sample size of 100 chromosomes throughout.
 For comparison we also run simulations with a constant expected population size, by setting $d=0$.
 In this case the ancestral genotype $aa$ has an absolute fitness of 1, meaning that any realized population size trajectory will be a random walk (in our case with an upper boundary at $N(0)$), and that extinction is assured in the long-term.  
 However, with the parameter values used here (large initial population size and relatively fast onset of the selective sweeps), population sizes decline only slightly before remaining constant at the carrying capacity once the sweep has started in earnest (since the mutants have fitnesses $\geq 1$).
-We chose to use this setup as the constant population size comparison (rather than, say, a Wright-Fisher population) because it allows us to keep the same variance in gamete and offspring numbers (affecting the probability of establishment and the rate of coalescence; see Section \ref{sec:simdetails}) as well as the same census population size (affecting initial allele frequency, $p(0)$) as in the case of rescue.
+We chose to use this setup as the constant population size comparison (rather than, say, a Wright-Fisher population) because it allows us to keep the same variance in gamete and offspring numbers (affecting the probability of establishment and the rate of coalescence; see \nameref{sec:simdetails}) as well as the same census population size (affecting initial allele frequency, $p(0)$) as in the case of rescue.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Supplementary text: Rescue by migrant alleles (MIG)}
