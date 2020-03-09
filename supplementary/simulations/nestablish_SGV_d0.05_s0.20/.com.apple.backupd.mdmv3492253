@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DateStarted</key>
+	<date>2020-02-24T20:57:25Z</date>
+	<key>FileID</key>
+	<integer>3492253</integer>
+	<key>NameSpaceID</key>
+	<integer>1450902299</integer>
+	<key>NewPath</key>
+	<string>Users/mmosmond/Documents/postdoc/coalminer/genetics/revision/supplementary/simulations/nestablish_SGV_d0.05_s0.20/data</string>
+	<key>SourcePath</key>
+	<string>Users/mmosmond/Documents/postdoc/coalminer/genetics/revision/supplementary/simulations/nestablish_SGV_s0.20/data</string>
+</dict>
+</plist>
